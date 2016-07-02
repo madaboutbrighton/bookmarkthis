@@ -1,0 +1,33 @@
+.bookmarkThisShare>img, .bookmarkThisShare>a, .bookmarkThisFollow>a
+{
+  margin: 3px;
+  cursor: pointer;
+}
+
+.bookmarkThisShare>img:first-child, .bookmarkThisShare>a:first-child, .bookmarkThisFollow>a:first-child
+{ 
+    margin-left: 0;
+}
+
+.bookmarkThisShare>img:last-child, .bookmarkThisShare>a:last-child, .bookmarkThisFollow>a:last-child
+{ 
+    margin-right: 0;
+}
+
+.bookmarkThisShare img
+{
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.bookmarkThisShare img:hover
+{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.bookmarkThisShare, .bookmarkThisFollow
+{
+  text-align: center;
+  padding-top: 20px;
+}

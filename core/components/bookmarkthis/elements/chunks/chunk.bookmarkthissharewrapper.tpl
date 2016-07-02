@@ -1,0 +1,1 @@
+<p class="bookmarkThisShare">[[+items]]</p>

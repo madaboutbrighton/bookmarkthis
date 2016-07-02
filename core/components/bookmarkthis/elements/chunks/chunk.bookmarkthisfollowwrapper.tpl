@@ -1,0 +1,1 @@
+<p class="bookmarkThisFollow">[[+items]]</p>

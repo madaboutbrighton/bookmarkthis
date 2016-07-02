@@ -1,0 +1,1 @@
+<a href="[[+follow]]" title="Follow us on [[+name]]" rel="nofollow"><img src="[[+image]]" alt="[[+name]]" /></a>

@@ -1,0 +1,160 @@
+<?php
+
+return array(
+              'BookmarkThis' => array(
+                                    'description' => 'The BookmarkThis snippet displays a set of social bookmarklets that a visitor can use to share your page.',
+                                    'static' => BUILD_SNIPPET_STATIC,
+                                    'properties' => array(  
+                                                            array(
+                                                                    'name' => 'use',
+                                                                    'desc' => 'prop_bookmarkthis.use_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'exclude',
+                                                                    'desc' => 'prop_bookmarkthis.exclude_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'data',
+                                                                    'desc' => 'prop_bookmarkthis.data_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'bookmarkThisData',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'type',
+                                                                    'desc' => 'prop_bookmarkthis.type_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'rounded',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'size',
+                                                                    'desc' => 'prop_bookmarkthis.size_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '36',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'tpl',
+                                                                    'desc' => 'prop_bookmarkthis.tpl_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'bookmarkThisShare',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'tplWrapper',
+                                                                    'desc' => 'prop_bookmarkthis.tplWrapper_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'bookmarkThisShareWrapper',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'appendJS',
+                                                                    'desc' => 'prop_bookmarkthis.appendJS_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '1',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'appendCSS',
+                                                                    'desc' => 'prop_bookmarkthis.appendCSS_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '1',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'customFields',
+                                                                    'desc' => 'prop_bookmarkthis.customFields_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   )
+                                                        )
+                                    ),
+              'BookmarkThisFollow' => array(
+                                    'description' => 'The BookmarkThisFollow snippet displays a set of follow-me links to send a visitor to your own social networks.',
+                                    'static' => BUILD_SNIPPET_STATIC,
+                                    'properties' => array(  
+                                                            array(
+                                                                    'name' => 'use',
+                                                                    'desc' => 'prop_bookmarkthis.use_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'exclude',
+                                                                    'desc' => 'prop_bookmarkthis.exclude_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'data',
+                                                                    'desc' => 'prop_bookmarkthis.data_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'bookmarkThisData',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'type',
+                                                                    'desc' => 'prop_bookmarkthis.type_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'rounded',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'size',
+                                                                    'desc' => 'prop_bookmarkthis.size_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '36',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'tpl',
+                                                                    'desc' => 'prop_bookmarkthis.tpl_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'bookmarkThisFollow',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'tplWrapper',
+                                                                    'desc' => 'prop_bookmarkthis.tplWrapper_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => 'bookmarkThisFollowWrapper',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   ),
+                                                            array(
+                                                                    'name' => 'appendCSS',
+                                                                    'desc' => 'prop_bookmarkthis.appendCSS_desc',
+                                                                    'type' => 'textfield',
+                                                                    'options' => '',
+                                                                    'value' => '1',
+                                                                    'lexicon' => 'bookmarkthis:default',
+                                                                   )
+                                                        )
+                                    )
+            );
