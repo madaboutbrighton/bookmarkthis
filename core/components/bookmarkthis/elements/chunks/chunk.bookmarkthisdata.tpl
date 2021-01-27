@@ -6,7 +6,7 @@
     }, 
   "digg":{
       "name" : "Digg",
-      "share" : "https://digg.com/submit?phase=2&url={link}&title={title}",
+      "share" : "https://digg.com/submit?url={link}&title={title}",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/digg-{type}.png"
     }, 
   "facebook":{
@@ -26,11 +26,6 @@
       "follow" : "https://www.linkedin.com/",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/linkedin-{type}.png"
     }, 
-  "stumbleupon":{
-      "name" : "StumbleUpon",
-      "share" : "https://www.stumbleupon.com/badge?url={link}&title={title}",
-      "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/stumbleupon-{type}.png"
-    },  
   "twitter":{
       "name" : "Twitter",
       "share" : "https://twitter.com/intent/tweet?text={title}&url={link}",
@@ -45,7 +40,7 @@
   "newsvine":{
       "name" : "Newsvine",
       "share" : "https://www.newsvine.com/_tools/seed?popoff=0&u={link}&title={title}",
-      "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/newsvine-{type}.png"
+            "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/newsvine-{type}.png"
     }, 
   "pinterest":{
       "name" : "Pinterest",
@@ -58,9 +53,19 @@
       "follow" : "https://github.com/",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/github-{type}.png"
     }, 
+  "github":{
+      "name" : "Github",
+      "follow" : "https://github.com/",
+      "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/github-{type}.png"
+    }, 
   "email":{
       "name" : "E-mail",
       "share" : "mailto:?subject={title}&body={link}",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/email-{type}.png"
+    },
+  "evernote":{
+      "name" : "Evernote",
+      "share" : "https://www.evernote.com/clip.action?url={link}",
+      "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/evernote-{type}.png"
     }
 }
