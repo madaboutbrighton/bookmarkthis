@@ -1,10 +1,4 @@
 {
-  "googleplus":{
-      "name" : "Google+",
-      "share" : "https://plus.google.com/share?url={link}",
-      "follow" : "https://plus.google.com/",
-      "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/googleplus-{type}.png"
-    }, 
   "delicious":{
       "name" : "Delicious",
       "share" : "https://delicious.com/save?v=5&noui&jump=close&url={link}&title={title}",
@@ -12,7 +6,7 @@
     }, 
   "digg":{
       "name" : "Digg",
-      "share" : "http://digg.com/submit?phase=2&url={link}&title={title}",
+      "share" : "https://digg.com/submit?phase=2&url={link}&title={title}",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/digg-{type}.png"
     }, 
   "facebook":{
@@ -28,7 +22,7 @@
     }, 
   "linkedin":{
       "name" : "LinkedIn",
-      "share" : "http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title={title}&url={link}",
+      "share" : "https://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title={title}&url={link}",
       "follow" : "https://www.linkedin.com/",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/linkedin-{type}.png"
     }, 
@@ -45,7 +39,7 @@
     }, 
   "reddit":{
       "name" : "Reddit",
-      "share" : "http://reddit.com/submit?url={link}&title={title}",
+      "share" : "https://reddit.com/submit?url={link}&title={title}",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/reddit-{type}.png"
     }, 
   "newsvine":{
@@ -55,6 +49,7 @@
     }, 
   "pinterest":{
       "name" : "Pinterest",
+      "share" : "https://www.pinterest.com/pin/create/button?url={link}&media=&description={title}",
       "follow" : "https://www.pinterest.com/",
       "image" : "{bookmarkthis_assets_url}/images/v1.5/{size}/pinterest-{type}.png"
     }, 
