@@ -8,7 +8,7 @@ Version: 1.4.0
 - Added Evernote
 - Updated Pinterest
 - Updated images
-- Bug fixes
+- Bug fix - Double slash in image path names
 
 ==============================
 
