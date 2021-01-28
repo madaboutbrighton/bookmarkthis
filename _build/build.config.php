@@ -6,8 +6,8 @@ define('PKG_NAME_LOWER', strtolower(PKG_NAME));
 
 //define('PKG_BUILD_DEV', 'DEV');
 
-define('PKG_VERSION','1.3.1');
-define('PKG_RELEASE_TYPE', 'pl');
+define('PKG_VERSION','1.4.0');
+define('PKG_RELEASE_TYPE', 'dev');
 
 /* define build options */
 //define('BUILD_MENU_UPDATE', false);

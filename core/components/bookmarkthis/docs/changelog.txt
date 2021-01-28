@@ -2,6 +2,16 @@
 Changelog: #NAME#
 --------------------------------------
 
+Version: 1.4.0
+
+- Removed Google+, StumbledUpon
+- Added Evernote
+- Updated Pinterest
+- Updated images
+- Bug fixes
+
+==============================
+
 Version: 1.3.1
 
 - Bug fixes
@@ -17,7 +27,7 @@ Version: 1.3.0
 - Added &exclude, &appendJS, &appendCSS, data, &tpl, &tplWrapper
 - Removed tagContain, styleContain, getImageSize, typeImage, widthImage, heightImage, urlJavascript, urlImage, pathData
 - Added reddit and newsvine bookmarklets
-- Updated documentation at http://madaboutbrighton.net/projects/bookmarkthis
+- Updated documentation at https://madaboutbrighton.net/projects/bookmarkthis
 
 ==============================
 
