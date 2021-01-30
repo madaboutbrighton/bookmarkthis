@@ -2,6 +2,14 @@
 Changelog: #NAME#
 --------------------------------------
 
+Version: 1.5.0
+
+- Removed Delicious, Newsvine
+- Added Tumblr, Flipboard, Blogger, VK, Pocket, Telegram
+- Updated images
+
+==============================
+
 Version: 1.4.0
 
 - Removed Google+, StumbledUpon
