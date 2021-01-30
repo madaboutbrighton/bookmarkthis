@@ -4,7 +4,7 @@ Changelog: #NAME#
 
 Version: 1.5.0
 
-- Removed Delicioius, Newsvine
+- Removed Delicious, Newsvine
 - Added Tumblr, Flipboard, Blogger, VK, Pocket, Telegram
 - Updated images
 
