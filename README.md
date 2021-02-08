@@ -65,9 +65,9 @@ The `size` property allows you set the size of the icons. You can currenlty choo
 
 The `type` property allows you set the style of the icons. You can currently choose from rounded, square, custom and circle.
 
-<img src="_images/share-circle.png" alt="Logo" width="1104" height="75">
+<img src="_images/share-circle.png" alt="Logo" width="442" height="210">
 
-<img src="_images/share-custom-size.png" alt="Logo" width="1103" height="75">
+<img src="_images/share-custom-size.png" alt="Logo" width="441" height="211">
 
 
 [screenshot1]: _images/screenshot1.png
