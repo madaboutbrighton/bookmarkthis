@@ -10,24 +10,35 @@
   <p align="center">
     A PHP MODX Revolution extra to display social bookmarks and follow-me links.
     <br />
-    <a href="https://madaboutbrighton.net/projects/bookmarkthis"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://madaboutbrighton.net/projects/bookmarkthis"><strong>website</strong></a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">Request Feature</a>
   </p>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary markdown="1">Contents</summary>
+Contents
+  - [About The Project](#about-the-project)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Options](#options)
   - [FAQ](#faq)
-</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![BookmarkThis Screen Shot][screenshot1]](https://example.com)
+
+BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and links. The BookmarkThis package is made up of very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
+
+
+
+
+
+
+
+
+
+[screenshot1]: _images/screenshot1.png
