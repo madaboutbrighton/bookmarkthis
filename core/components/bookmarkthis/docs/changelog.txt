@@ -5,6 +5,8 @@ Changelog: #NAME#
 Version: 1.6.0
 
 - Added Instagram
+- Updated css
+  - Removed extra padding, converted margin from px to rem
 - Updated images
   - Added Instagram.png
   - Updated telegram-rounded.png for smoother corners
