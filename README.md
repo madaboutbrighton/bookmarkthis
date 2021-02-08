@@ -29,7 +29,7 @@ Contents
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="_images/bookmarkthis.png" alt="BookmarkThis Screen Shot" width="262" height="200">
+<img src="_images/screenshot1.png" alt="BookmarkThis Screen Shot" width="838" height="638">
 
 BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and links. The BookmarkThis package is made up of very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
 
