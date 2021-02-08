@@ -1,5 +1,4 @@
 <!-- PROJECT LOGO -->
-<br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="_images/bookmarkthis.png" alt="Logo" width="180" height="180">
@@ -8,7 +7,7 @@
   <h1 align="center">BookmarkThis</h1>
 
   <p align="center">
-    A PHP MODX Revolution extra to display social bookmarks and follow-me links.
+    A PHP MODX Revolution extra to display social bookmarks and follow-me links
     <br />
     <br />
     <a href="https://madaboutbrighton.net/projects/bookmarkthis">visit website</a>
@@ -31,7 +30,7 @@ Contents
 
 <img src="_images/screenshot1.png" alt="BookmarkThis Screen Shot" width="838" height="638">
 
-BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and links. The BookmarkThis package is made up of very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
+BookmarkThis is a PHP MODX Revolution add-on to display social bookmarks and follow-me links. The BookmarkThis package is made up of very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
 
 ### Built With
 
@@ -65,9 +64,41 @@ The `size` property allows you set the size of the icons. You can currenlty choo
 
 The `type` property allows you set the style of the icons. You can currently choose from rounded, square, custom and circle.
 
+#### Circle icons
+
 <img src="_images/share-circle.png" alt="Logo" width="442" height="210">
 
+#### Custom icons
 <img src="_images/share-custom-size.png" alt="Logo" width="441" height="211">
 
 
-[screenshot1]: _images/screenshot1.png
+## Options
+
+### Sharing
+
+Property | Description | Default
+------ | ------|----------
+`use` | Comma separated list of items to be used from the data. If empty, all data items will be used. | &nbsp;
+`exclude` | Comma separated list of items to be excluded from the data. | &nbsp;
+`data` | Name of chunk containing the JSON data items. | _bookmarkThisData_
+`type` | Type of icon to be used. Either - _circle_, _rounded_, _custom_ or _square_ | _rounded_
+`size` | Size of icon to be used. Either - _16_, _36_, _48_ or _64_ | _36_
+`tpl` | Name of chunk to apply to each item. | _bookmarkThisShare_
+`tplWrapper` | Name of chunk to wrap all `tpl` items inside. | _bookmarkThisShareWrapper_
+`appendJS` | Whether to append the JavaScript to the end of the resource output. | _1_
+`appendCSS` | Whether to append the CSS to the end of the resource head. | _1_
+`customFields` | JSON data specifying the queries and attributes from which to obtain a bookmarklets _title_, _description_ and _tags_. | &nbsp;
+
+### Follow-me
+
+Property | Description | Default
+------ | ------|----------
+`use` | Comma separated list of items to be used from the data. If empty, all data items will be used. | &nbsp;
+`exclude` | Comma separated list of items to be excluded from the data. | &nbsp;
+`data` | Name of chunk containing the JSON data items. | _bookmarkThisData_
+`type` | Type of icon to be used. Either - _circle_, _rounded_, _custom_ or _square_ | _rounded_
+`size` | Size of icon to be used. Either - _16_, _36_, _48_ or _64_ | _36_
+`tpl` | Name of chunk to apply to each item. | _bookmarkThisFollow_
+`tplWrapper` | Name of chunk to wrap all `tpl` items inside. | _bookmarkThisFollowWrapper_
+`appendCSS` | Whether to append the CSS to the end of the resource head. | _1_
+
