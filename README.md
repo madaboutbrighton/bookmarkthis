@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="_images/bookmarkthis.png" alt="Logo" width="130" height="130">
+    <img src="_images/bookmarkthis.png" alt="Logo" width="180" height="180">
   </a>
 
   <h1 align="center">BookmarkThis</h1>
@@ -47,10 +47,27 @@ BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and link
 
 The default BookmarkThis snippet displays a set of social buttons that a visitor can use to share your page.
 
-[![BookmarkThis Screen Shot][share-rounded]](https://madaboutbrighton.net/projects/bookmarkthis)
+<img src="_images/share-rounded.png" alt="Logo" width="879" height="59">
 
+### Including only certain items
 
+The `use` property allows you to specify which items to show. Items returned will be in the same order that you specify them.
+
+<img src="_images/share-rounded-use.png" alt="Logo" width="241" height="60">
+
+### Changing the size
+
+The `size` property allows you set the size of the icons. You can currenlty choose from 16, 36, 48 and 64.
+
+<img src="_images/share-rounded-use-size.png" alt="Logo" width="304" height="82">
+
+### Altering the style
+
+The `type` property allows you set the style of the icons. You can currently choose from rounded, square, custom and circle.
+
+<img src="_images/share-circle.png" alt="Logo" width="1104" height="75">
+
+<img src="_images/share-custom-size.png" alt="Logo" width="1103" height="75">
 
 
 [screenshot1]: _images/screenshot1.png
-[share-rounded]: _images/share-rounded.png
