@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://madaboutbrighton.net/projects/bookmarkthis">
-    <img src="_images/bookmarkthis.png" alt="Logo" width="262" height="200">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="_images/bookmarkthis.png" alt="Logo" width="180" height="180">
   </a>
 
   <h1 align="center">BookmarkThis</h1>
@@ -29,9 +29,7 @@ Contents
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-blah1
-
-[![BookmarkThis Screen Shot][screenshot1]](https://madaboutbrighton.net/projects/bookmarkthis)
+<img src="_images/bookmarkthis.png" alt="BookmarkThis Screen Shot" width="262" height="200">
 
 BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and links. The BookmarkThis package is made up of very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
 
