@@ -5,7 +5,7 @@
     <img src="_images/bookmarkthis.png" alt="Logo" width="130" height="130">
   </a>
 
-  <h3 align="center">BookmarkThis</h3>
+  <h1 align="center">BookmarkThis</h1>
 
   <p align="center">
     A PHP MODX Revolution extra to display social bookmarks and follow-me links.
@@ -13,9 +13,9 @@
     <br />
     <a href="https://madaboutbrighton.net/projects/bookmarkthis">visit website</a>
     ·
-    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">report Bug</a>
+    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">bug report</a>
     ·
-    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">request Feature</a>
+    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">feature request</a>
   </p>
 </p>
 
@@ -29,7 +29,7 @@ Contents
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![BookmarkThis Screen Shot][screenshot1]](https://example.com)
+[![BookmarkThis Screen Shot][screenshot1]](https://madaboutbrighton.net/projects/bookmarkthis)
 
 BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and links. The BookmarkThis package is made up of very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
 
@@ -39,15 +39,18 @@ BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and link
 
 ## Installation
 
-1. Log in to your MODX Manager
+1. Log-in to your MODX Manager
 2. Go to the Insaller
 3. Search for BookmarkThis and instal
 
 ## Usage
 
+The default BookmarkThis snippet displays a set of social buttons that a visitor can use to share your page.
 
+[![BookmarkThis Screen Shot][share-rounded]](https://madaboutbrighton.net/projects/bookmarkthis)
 
 
 
 
 [screenshot1]: _images/screenshot1.png
+[share-rounded]: _images/share-rounded.png
