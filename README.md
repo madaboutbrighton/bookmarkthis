@@ -47,7 +47,7 @@ BookmarkThis is a PHP MODX Revolution add-on to generate social buttons and link
 
 The default BookmarkThis snippet displays a set of social buttons that a visitor can use to share your page.
 
-<img src="_images/share-rounded.png" alt="Logo" width="879" height="59">
+<img src="_images/share-rounded.png" alt="Logo" width="469" height="110">
 
 ### Including only certain items
 
