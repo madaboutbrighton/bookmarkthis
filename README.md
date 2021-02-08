@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://madaboutbrighton.net/projects/bookmarkthis">
     <img src="_images/bookmarkthis.png" alt="Logo" width="262" height="200">
   </a>
 
@@ -28,6 +28,8 @@ Contents
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+blah1
 
 [![BookmarkThis Screen Shot][screenshot1]](https://madaboutbrighton.net/projects/bookmarkthis)
 
