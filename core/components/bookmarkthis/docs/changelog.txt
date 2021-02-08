@@ -2,6 +2,17 @@
 Changelog: #NAME#
 --------------------------------------
 
+Version: 1.6.0
+
+- Added Instagram
+- Updated images
+  - Added Instagram.png
+  - Updated telegram-rounded.png for smoother corners
+  - Updated twitter.png by swapping "t" icons with bird ones. This is to avoid similarities with Tumblr logo
+  - Updated email.png, tumblr-circle.png, youtube-circle.png
+
+==============================
+
 Version: 1.5.0
 
 - Removed Delicious, Newsvine
