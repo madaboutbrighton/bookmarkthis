@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="_images/bookmarkthis.png" alt="Logo" width="180" height="180">
+    <img src="_images/bookmarkthis.png" alt="Logo" width="262" height="200">
   </a>
 
   <h1 align="center">BookmarkThis</h1>
