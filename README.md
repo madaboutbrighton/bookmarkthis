@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="_images/bookmarkthis.png" alt="Logo" width="180" height="180">
+  <img src="_images/bookmarkthis.png" alt="BookmarkThis" width="180" height="180">
 
   <h1 align="center">BookmarkThis</h1>
 
@@ -21,6 +21,7 @@ Contents
   - [Usage](#usage)
   - [Examples](#examples)
   - [Options](#options)
+  - [Customise](#customise)
 
 ## About The Project
 
@@ -112,63 +113,26 @@ Property | Description | Default
 `tplWrapper` | Name of chunk to wrap all `tpl` items inside. | _bookmarkThisFollowWrapper_
 `appendCSS` | Whether to append the CSS to the end of the resource head. | _1_
 
-## The data chunk
+## Customise
 
-BookmarkThis can be customised by creating your own data chunk. Doing this means you can add your own social buttons, or edit the existing buttons with your own links and icons.
+### Button data
 
-!!! Simply create a new chunk called _bookmarkThisData_ and fill it with your own data.
+You can edit existing social buttons, or add your own ones. The data for the buttons is stored in a chunk named _BookmarkThisData_. To customise BookmarkThis, simply create your own chunk with the same name. You can then apply your changes to this new data chunk.
 
-### Default data
+Here's an example of the data within _BookmarkThisData_.
 
 ```json
 {
-  "blogger":{
-      "name" : "Blogger",
-      "share" : "https://www.blogger.com/blog-this.g?u={link}&n={title}",
-      "follow" : "https://www.blogger.com/",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/blogger-{type}.png"
-    },
-  "digg":{
-      "name" : "Digg",
-      "share" : "https://digg.com/submit?url={link}&title={title}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/digg-{type}.png"
-    },
-  "evernote":{
-      "name" : "Evernote",
-      "share" : "https://www.evernote.com/clip.action?url={link}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/evernote-{type}.png"
-    },
   "facebook":{
       "name" : "Facebook",
       "share" : "https://www.facebook.com/sharer/sharer.php?u={link}&t={title}",
       "follow" : "https://www.facebook.com/",
       "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/facebook-{type}.png"
     },
-  "flipboard":{
-      "name" : "Flipboard",
-      "share" : "https://share.flipboard.com/bookmarklet/popout?v=2&title={title}&url={link}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/flipboard-{type}.png"
-    },
   "github":{
       "name" : "Github",
       "follow" : "https://github.com/",
       "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/github-{type}.png"
-    }, 
-  "google":{
-      "name" : "Google",
-      "share" : "https://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk={link}&title={title}&labels={tags}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/google-{type}.png"
-    },
-  "instagram":{
-      "name" : "Instagram",
-      "follow" : "https://www.instagram.com/",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/instagram-{type}.png"
-    }, 
-  "linkedin":{
-      "name" : "LinkedIn",
-      "share" : "https://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title={title}&url={link}",
-      "follow" : "https://www.linkedin.com/",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/linkedin-{type}.png"
     }, 
   "pinterest":{
       "name" : "Pinterest",
@@ -176,43 +140,6 @@ BookmarkThis can be customised by creating your own data chunk. Doing this means
       "follow" : "https://www.pinterest.com/",
       "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/pinterest-{type}.png"
     },
-  "pocket":{
-      "name" : "Pocket",
-      "share" : "https://getpocket.com/save?url={link}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/pocket-{type}.png"
-    },
-  "reddit":{
-      "name" : "Reddit",
-      "share" : "https://reddit.com/submit?url={link}&title={title}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/reddit-{type}.png"
-    }, 
-  "telegram":{
-      "name" : "Telegram",
-      "share" : "https://t.me/share/url?url={link}&text={title}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/telegram-{type}.png"
-    },
-  "tumblr":{
-      "name" : "Tumblr",
-      "share" : "https://www.tumblr.com/widgets/share/tool?canonicalUrl={link}&title={title}",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/tumblr-{type}.png"
-    },
-  "twitter":{
-      "name" : "Twitter",
-      "share" : "https://twitter.com/intent/tweet?text={title}&url={link}",
-      "follow" : "https://twitter.com/",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/twitter-{type}.png"
-    },
-  "vk":{
-      "name" : "VK",
-      "share" : "https://vk.com/share.php?url={link}",
-      "follow" : "https://vk.com/",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/vk-{type}.png"
-    },
-  "youtube":{
-      "name" : "Youtube",
-      "follow" : "https://www.youtube.com/",
-      "image" : "{bookmarkthis_assets_url}images/v1.8/{size}/youtube-{type}.png"
-    }, 
   "email":{
       "name" : "E-mail",
       "share" : "mailto:?subject={title}&body={link}",
@@ -220,3 +147,41 @@ BookmarkThis can be customised by creating your own data chunk. Doing this means
     }
 }
 ```
+
+### Button style
+
+All the styles used are prefixed with _bookmarkThis_. Simply extend these styles in your own css.
+
+## Templates
+
+All the teamplate chunks used by BookmarkThis can be customised by making your own one with the same name.
+
+### Share
+
+Each share button is rendered using a chunk named _BookmarkThisShare_, as defined by the `tpl` property.
+    
+```html
+<img [[+custom]] title="Share this page on [[+name]]" src="[[+image]]" alt="[[+name]]" onclick="return BookmarkThis.share('[[+share]]', this);" />
+```
+
+Each set of share buttons are rendered using a chunk named _BookmarkThisShareWrapper_, as defined by the `tplWrapper` property.
+
+```html
+<p class="bookmarkThisShare">[[+items]]</p>
+```   
+
+### Follow
+
+Each follow button is rendered using a chunk named _BookmarkThisFollow_, as defined by the `tpl` property.
+    
+```html
+<a href="[[+follow]]" title="Follow us on [[+name]]" rel="nofollow"><img src="[[+image]]" alt="[[+name]]" /></a>
+```
+
+### Wrapper template
+
+Each set of follow buttons are rendered using a chunk named _BookmarkThisFollowWrapper_, as defined by the `tplWrapper` property.
+
+```html
+<p class="bookmarkThisFollow">[[+items]]</p>
+```   
