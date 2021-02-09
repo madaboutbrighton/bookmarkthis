@@ -1,20 +1,17 @@
-<!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://madaboutbrighton.net/projects/bookmarkthis">
-    <img src="_images/bookmarkthis.png" alt="Logo" width="180" height="180">
-  </a>
+  <img src="_images/bookmarkthis.png" alt="Logo" width="180" height="180">
 
   <h1 align="center">BookmarkThis</h1>
 
   <p align="center">
-    A PHP MODX Revolution extra to display social share and follow buttons
+    A MODX Revolution extra to display social share and follow buttons
     <br />
     <br />
-    <a href="https://madaboutbrighton.net/projects/bookmarkthis">visit website</a>
+    <a href="https://madaboutbrighton.net/projects/bookmarkthis">website</a>
     ·
-    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">bug report</a>
+    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">bugs</a>
     ·
-    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">feature request</a>
+    <a href="https://github.com/madaboutbrighton/bookmarkthis/issues">requests</a>
   </p>
 </p>
 
@@ -22,14 +19,14 @@ Contents
   - [About The Project](#about-the-project)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Examples](#examples)
   - [Options](#options)
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 <img src="_images/screenshot1.png" alt="BookmarkThis Screen Shot" width="838" height="638">
 
-BookmarkThis is a PHP MODX Revolution extra to display social share and follow buttons on your website. The BookmarkThis package is made up of several chunks and snippets, and includes very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
+BookmarkThis is a MODX Revolution extra that displays inline social share and follow buttons on your website. The BookmarkThis package is made up of several chunks and snippets, and includes very light weight CSS and JavaScript. It is fully customisable, allowing you to add your own links and icons.
 
 ### Built With
 
@@ -45,39 +42,41 @@ BookmarkThis is a PHP MODX Revolution extra to display social share and follow b
 
 ### Share
 
-The _BookmarkThis_ snippet displays a set of inline social share buttons. By default, all the buttons from the data chunk are shown, where a `share` property has been set.
+Use the _BookmarkThis_ snippet to dispaly inline social share buttons. By default, all the buttons from the data chunk are shown, where a `share` property has been set.
 
 <img src="_images/share-rounded.png" alt="Logo" width="469" height="110">
 
-#### Including only certain items
+### Follow
+
+Use the _BookmarkThisFollow_ snippet to dispaly inline social follow buttons. By default, all the buttons from the data chunk are shown, where a `follow` property has been set.
+
+<img src="_images/follow-rounded.png" alt="Logo" width="528" height="59">
+
+## Examples
+
+### Including only certain items
 
 The `use` property allows you to specify which buttons to show. Buttons returned will be in the same order that you specify them.
 
 <img src="_images/share-rounded-use.png" alt="Logo" width="241" height="60">
 
-#### Changing the size
+### Changing the size
 
 The `size` property allows you set the size of the buttons. You can currenlty choose from _16_, _36_, _48_ and _64_.
 
 <img src="_images/share-rounded-use-size.png" alt="Logo" width="304" height="82">
 
-#### Altering the style
+### Altering the style
 
 The `type` property allows you set the style of the buttons. You can currently choose from _rounded_, _square_, _custom_ and _circle_.
 
-##### Circle icons
+#### Circle icons
 
 <img src="_images/share-circle.png" alt="Logo" width="442" height="210">
 
-##### Custom icons
+#### Custom icons
 
 <img src="_images/share-custom-size.png" alt="Logo" width="441" height="211">
-
-### Follow
-
-The _BookmarkThisFollow_ snippet displays a set of inline social follow buttons. By default, all the buttons from the data chunk are shown, where a `follow` property has been set.
-
-<img src="_images/follow-rounded.png" alt="Logo" width="528" height="59">
 
 ## Options
 
