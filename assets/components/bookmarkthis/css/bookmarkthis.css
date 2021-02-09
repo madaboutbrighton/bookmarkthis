@@ -1,23 +1,28 @@
-.bookmarkThisShare>img, .bookmarkThisShare>a, .bookmarkThisFollow>a
+.bookmarkThisFollow a
 {
-  margin: 3px;
+  display: inline-block;
+}
+
+.bookmarkThisShare>img, .bookmarkThisFollow>a
+{
+  margin: .2rem;
   cursor: pointer;
 }
 
-.bookmarkThisShare>img:first-child, .bookmarkThisShare>a:first-child, .bookmarkThisFollow>a:first-child
+.bookmarkThisShare>img:first-child, .bookmarkThisFollow>a:first-child
 { 
-    margin-left: 0;
+  margin-left: 0;
 }
 
-.bookmarkThisShare>img:last-child, .bookmarkThisShare>a:last-child, .bookmarkThisFollow>a:last-child
+.bookmarkThisShare>img:last-child, .bookmarkThisFollow>a:last-child
 { 
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .bookmarkThisShare img
 {
-  opacity: 0.4;
-  filter: alpha(opacity=40);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
 }
 
 .bookmarkThisShare img:hover
@@ -29,5 +34,4 @@
 .bookmarkThisShare, .bookmarkThisFollow
 {
   text-align: center;
-  padding-top: 20px;
 }
